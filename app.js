@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV != "production") {
+    require('dotenv').config();
+}
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -92,6 +95,6 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log("listening");
 }); 

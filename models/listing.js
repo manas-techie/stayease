@@ -11,10 +11,12 @@ const listingSchema = new Schema({
         type: String,
     },
     image: {
-        type: String,
-        default: "https://icons.iconarchive.com/icons/aha-soft/large-home/256/Property-icon.png",
-        set: (v) => v === "" ? "https://icons.iconarchive.com/icons/aha-soft/large-home/256/Property-icon.png " : v,
-
+        url: {
+            type: String,
+        },
+        filename: {
+            type: String,
+        },
     },
     price: {
         type: Number,

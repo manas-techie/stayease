@@ -1,0 +1,310 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/manas/.nvm/v0.9.12/bin/node',
+1 verbose cli   '/home/manas/.nvm/v0.9.12/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'multer' ]
+2 info using npm@1.2.12
+3 info using node@v0.9.12
+4 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/package.json
+5 warn package.json stayease@1.0.0 No README.md file found!
+6 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@asamuzakjp/package.json
+7 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@csstools/package.json
+8 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@hapi/package.json
+9 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@mongodb-js/package.json
+10 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@sideway/package.json
+11 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/@types/package.json
+12 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/accepts/package.json
+13 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ajv/package.json
+14 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/amdefine/package.json
+15 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ansi-styles/package.json
+16 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/append-field/package.json
+17 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/array-flatten/package.json
+18 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/asn1/package.json
+19 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/assert-plus/package.json
+20 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/async/package.json
+21 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/asynckit/package.json
+22 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/auto-reload-brunch/package.json
+23 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/aws-sign2/package.json
+24 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/aws4/package.json
+25 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/balanced-match/package.json
+26 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/bcrypt-pbkdf/package.json
+27 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/body-parser/package.json
+28 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/brace-expansion/package.json
+29 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/bson/package.json
+30 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/buffer-from/package.json
+31 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/busboy/package.json
+32 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/bytes/package.json
+33 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/call-bind-apply-helpers/package.json
+34 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/call-bound/package.json
+35 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/caseless/package.json
+36 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/chainsaw/package.json
+37 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/chalk/package.json
+38 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/clean-css/package.json
+39 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/clean-css-brunch/package.json
+40 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/coffee-script/package.json
+41 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/coffee-script-brunch/package.json
+42 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/coffeelint/package.json
+43 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/coffeelint-brunch/package.json
+44 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/coffeescript/package.json
+45 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/color-convert/package.json
+46 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/color-name/package.json
+47 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/combined-stream/package.json
+48 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/commander/package.json
+49 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/concat-map/package.json
+50 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/concat-stream/package.json
+51 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/connect-flash/package.json
+52 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/content-disposition/package.json
+53 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/content-type/package.json
+54 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/cookie/package.json
+55 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/cookie-parser/package.json
+56 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/cookie-signature/package.json
+57 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/core-util-is/package.json
+58 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/css-brunch/package.json
+59 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/cssom/package.json
+60 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/cssstyle/package.json
+61 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/dashdash/package.json
+62 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/debug/package.json
+63 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/delayed-stream/package.json
+64 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/depd/package.json
+65 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/destroy/package.json
+66 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/dunder-proto/package.json
+67 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ecc-jsbn/package.json
+68 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ee-first/package.json
+69 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ejs/package.json
+70 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ejs-mate/package.json
+71 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/emblem-brunch/package.json
+72 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/encodeurl/package.json
+73 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/es-define-property/package.json
+74 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/es-errors/package.json
+75 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/es-object-atoms/package.json
+76 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/escape-html/package.json
+77 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/etag/package.json
+78 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/express/package.json
+79 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/express-session/package.json
+80 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/extend/package.json
+81 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/extsprintf/package.json
+82 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/fast-deep-equal/package.json
+83 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/fast-json-stable-stringify/package.json
+84 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/filelist/package.json
+85 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/finalhandler/package.json
+86 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/forever-agent/package.json
+87 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/form-data/package.json
+88 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/forwarded/package.json
+89 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/fresh/package.json
+90 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/fs.realpath/package.json
+91 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/function-bind/package.json
+92 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/generaterr/package.json
+93 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/get-intrinsic/package.json
+94 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/get-proto/package.json
+95 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/getpass/package.json
+96 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/glob/package.json
+97 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/gopd/package.json
+98 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/har-schema/package.json
+99 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/har-validator/package.json
+100 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/has-flag/package.json
+101 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/has-symbols/package.json
+102 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/hashish/package.json
+103 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/hasown/package.json
+104 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/htmlparser/package.json
+105 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/http-errors/package.json
+106 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/http-signature/package.json
+107 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/iconv-lite/package.json
+108 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ignore/package.json
+109 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/imagemagick/package.json
+110 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/inflight/package.json
+111 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/inherits/package.json
+112 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ipaddr.js/package.json
+113 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/is-typedarray/package.json
+114 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/isarray/package.json
+115 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/isstream/package.json
+116 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/jake/package.json
+117 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/javascript-brunch/package.json
+118 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/joi/package.json
+119 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/joy/package.json
+120 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/jsbn/package.json
+121 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/jsdom/package.json
+122 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/json-schema/package.json
+123 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/json-schema-traverse/package.json
+124 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/json-stringify-safe/package.json
+125 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/jsprim/package.json
+126 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/kareem/package.json
+127 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/keypress/package.json
+128 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/lru-cache/package.json
+129 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/math-intrinsics/package.json
+130 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/media-typer/package.json
+131 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/memory-pager/package.json
+132 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/merge-descriptors/package.json
+133 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/method-override/package.json
+134 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/methods/package.json
+135 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mime/package.json
+136 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mime-db/package.json
+137 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mime-types/package.json
+138 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/minimatch/package.json
+139 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/minimist/package.json
+140 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mkdirp/package.json
+141 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mongodb/package.json
+142 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mongodb-connection-string-url/package.json
+143 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mongoose/package.json
+144 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mpath/package.json
+145 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/mquery/package.json
+146 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ms/package.json
+147 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/multer/package.json
+148 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/negotiator/package.json
+149 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/nib/package.json
+150 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/node-sprite/package.json
+151 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/oauth-sign/package.json
+152 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/object-assign/package.json
+153 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/object-inspect/package.json
+154 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/on-finished/package.json
+155 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/on-headers/package.json
+156 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/once/package.json
+157 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/optimist/package.json
+158 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/options/package.json
+159 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/package-name/package.json
+160 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/parseurl/package.json
+161 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/passport/package.json
+162 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/passport-local/package.json
+163 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/passport-local-mongoose/package.json
+164 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/passport-strategy/package.json
+165 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/path-is-absolute/package.json
+166 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/path-to-regexp/package.json
+167 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/pause/package.json
+168 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/performance-now/package.json
+169 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/process-nextick-args/package.json
+170 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/proxy-addr/package.json
+171 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/psl/package.json
+172 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/punycode/package.json
+173 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/qs/package.json
+174 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/random-bytes/package.json
+175 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/range-parser/package.json
+176 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/raw-body/package.json
+177 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/readable-stream/package.json
+178 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/request/package.json
+179 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/resolve/package.json
+180 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/rrweb-cssom/package.json
+181 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/safe-buffer/package.json
+182 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/safer-buffer/package.json
+183 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/scmp/package.json
+184 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/send/package.json
+185 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/seq/package.json
+186 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/serve-static/package.json
+187 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/setprototypeof/package.json
+188 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/side-channel/package.json
+189 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/side-channel-list/package.json
+190 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/side-channel-map/package.json
+191 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/side-channel-weakmap/package.json
+192 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/sift/package.json
+193 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/source-map/package.json
+194 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/sparse-bitfield/package.json
+195 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/sshpk/package.json
+196 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/statuses/package.json
+197 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/streamsearch/package.json
+198 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/string_decoder/package.json
+199 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/strip-json-comments/package.json
+200 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/stylus/package.json
+201 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/stylus-brunch/package.json
+202 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/supports-color/package.json
+203 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tinycolor/package.json
+204 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tldts/package.json
+205 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tldts-core/package.json
+206 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/toidentifier/package.json
+207 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tough-cookie/package.json
+208 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tr46/package.json
+209 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/traverse/package.json
+210 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tunnel-agent/package.json
+211 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/tweetnacl/package.json
+212 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/type-is/package.json
+213 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/typedarray/package.json
+214 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/uglify-js/package.json
+215 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/uglify-js-brunch/package.json
+216 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/uid-safe/package.json
+217 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/underscore/package.json
+218 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/unpipe/package.json
+219 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/uri-js/package.json
+220 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/util-deprecate/package.json
+221 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/utils-merge/package.json
+222 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/uuid/package.json
+223 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/vary/package.json
+224 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/verror/package.json
+225 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/watch/package.json
+226 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/webidl-conversions/package.json
+227 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/whatwg-url/package.json
+228 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/wordwrap/package.json
+229 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/wrappy/package.json
+230 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/ws/package.json
+231 verbose read json /run/media/manas/New Volume/WEB-DEV/Project/stayease/node_modules/xtend/package.json
+232 verbose from cache /run/media/manas/New Volume/WEB-DEV/Project/stayease/package.json
+233 verbose readDependencies using package.json deps
+234 verbose cache add [ 'multer@^1.4.5-lts.1', null ]
+235 verbose cache add name=undefined spec="multer@^1.4.5-lts.1" args=["multer@^1.4.5-lts.1",null]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: 'multer@^1.4.5-lts.1',
+236 verbose parsed url   path: 'multer@^1.4.5-lts.1',
+236 verbose parsed url   href: 'multer@^1.4.5-lts.1' }
+237 verbose cache add name="multer" spec="^1.4.5-lts.1" args=["multer","^1.4.5-lts.1"]
+238 verbose parsed url { protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '^1.4.5-lts.1',
+238 verbose parsed url   path: '^1.4.5-lts.1',
+238 verbose parsed url   href: '^1.4.5-lts.1' }
+239 verbose addNamed [ 'multer', '^1.4.5-lts.1' ]
+240 verbose addNamed [ null, null ]
+241 silly lockFile 73558a36-multer-1-4-5-lts-1 multer@^1.4.5-lts.1
+242 verbose lock multer@^1.4.5-lts.1 /home/manas/.npm/73558a36-multer-1-4-5-lts-1.lock
+243 info addNameTag [ 'multer', '^1.4.5-lts.1' ]
+244 verbose url raw multer
+245 verbose url resolving [ 'https://registry.npmjs.org/', './multer' ]
+246 verbose url resolved https://registry.npmjs.org/multer
+247 info trying registry request attempt 1 at 17:28:49
+248 http GET https://registry.npmjs.org/multer
+249 http 200 https://registry.npmjs.org/multer
+250 silly registry.get cb [ 200,
+250 silly registry.get   { date: 'Tue, 04 Mar 2025 11:58:50 GMT',
+250 silly registry.get     'content-type': 'application/json',
+250 silly registry.get     'content-length': '156583',
+250 silly registry.get     connection: 'keep-alive',
+250 silly registry.get     'cf-ray': '91b1343abe1491b6-DEL',
+250 silly registry.get     'cf-cache-status': 'HIT',
+250 silly registry.get     'accept-ranges': 'bytes',
+250 silly registry.get     'access-control-allow-origin': '*',
+250 silly registry.get     age: '223',
+250 silly registry.get     'cache-control': 'public, max-age=300',
+250 silly registry.get     etag: '"7d5e1246aafe1b014ba2b9dc0623564a"',
+250 silly registry.get     'last-modified': 'Mon, 13 Jan 2025 23:08:48 GMT',
+250 silly registry.get     vary: 'accept-encoding, accept',
+250 silly registry.get     'set-cookie': [ '_cfuvid=tQ56YZK1F_Y5VHV2sZFk7O.0car4U5g9RiGaNGAnit4-1741089530068-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ],
+250 silly registry.get     server: 'cloudflare' } ]
+251 silly lockFile 73558a36-multer-1-4-5-lts-1 multer@^1.4.5-lts.1
+252 silly lockFile 73558a36-multer-1-4-5-lts-1 multer@^1.4.5-lts.1
+253 error Error: No compatible version found: multer@'^1.4.5-lts.1'
+253 error Valid install targets:
+253 error ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.6","0.1.7","0.1.8","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.1.0","1.2.0","2.0.0-alpha.1","2.0.0-alpha.2","1.2.1","2.0.0-alpha.3","1.3.0","2.0.0-alpha.4","2.0.0-alpha.5","2.0.0-alpha.6","1.3.1","1.4.0","1.4.1","2.0.0-alpha.7","1.4.2","2.0.0-beta.1","2.0.0-rc.1","2.0.0-rc.2","2.0.0-rc.3","1.4.3","1.4.4","2.0.0-rc.4","1.4.4-lts.1","1.4.5-lts.1"]
+253 error     at installTargetsError (/home/manas/.nvm/v0.9.12/lib/node_modules/npm/lib/cache.js:679:10)
+253 error     at /home/manas/.nvm/v0.9.12/lib/node_modules/npm/lib/cache.js:594:10
+253 error     at saved (/home/manas/.nvm/v0.9.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+253 error     at Object.oncomplete (fs.js:93:15)
+254 error If you need help, you may report this log at:
+254 error     <http://github.com/isaacs/npm/issues>
+254 error or email it to:
+254 error     <npm-@googlegroups.com>
+255 error System Linux 6.13.4-200.fc41.x86_64
+256 error command "/home/manas/.nvm/v0.9.12/bin/node" "/home/manas/.nvm/v0.9.12/bin/npm" "i" "multer"
+257 error cwd /run/media/manas/New Volume/WEB-DEV/Project/stayease
+258 error node -v v0.9.12
+259 error npm -v 1.2.12
+260 verbose exit [ 1, true ]

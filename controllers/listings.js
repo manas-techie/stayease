@@ -23,9 +23,12 @@ module.exports.showRoute = async (req, res) => {
 };
 
 module.exports.createListing = async (req, res) => {
-    // let { title, decription, image, price, location, country } = res.body;  
+    let url = req.file.path;
+    let filename = req.file.filename;
+    // let { title, decription, image, price, location, country } = res.body;
     const newlisting = new Listing(req.body.listing);
     newlisting.owner = req.user._id;
+    newlisting.image = { url, filename };
     await newlisting.save();
     req.flash("success", "Successfully made a new listing");
     res.redirect("/stayease")
@@ -38,12 +41,22 @@ module.exports.editListing = async (req, res) => {
         req.flash("error", "Cannot find that listing");
         return res.redirect("/stayease");
     }
-    res.render("listing/edit.ejs", { listing })
+    let originalImageUrl = listing.image.url;
+    originalImageUrl = originalImageUrl.replace('/upload', '/upload/w_250');
+    res.render("listing/edit.ejs", { listing, originalImageUrl })
 };
 
 module.exports.updateListing = async (req, res) => {
     let { id } = req.params;
-    await Listing.findByIdAndUpdate(id, { ...req.body.listing });
+    let listing = await Listing.findByIdAndUpdate(id, { ...req.body.listing });
+
+    if (typeof req.file !== "undefined") {
+        let url = req.file.path;
+        let filename = req.file.filename;
+        listing.image = { url, filename };
+        await listing.save();
+    }
+
     req.flash("success", "Successfully updated listing");
     res.redirect(`/stayease/${id}`);
 };
