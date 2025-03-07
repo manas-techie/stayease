@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Listing = require('../models/listing.js');
 const wrapAsync = require('../utils/wrapAsync.js');
-const { isLoggedIn, isOwner, validateListing } = require('../middleware.js');
+const { isLoggedIn, isOwner, validateListing, saveRedirectUrl } = require('../middleware.js');
 const multer = require('multer');
 const { storage } = require('../cloudConfig.js');
 const upload = multer({ storage });
@@ -14,15 +14,15 @@ router.route("/")
     .post(isLoggedIn, upload.single('listing[image]'), validateListing, wrapAsync(createListing)); //create route
 
 //new route
-router.get("/new", isLoggedIn, renderNewForm);
+router.get("/new", isLoggedIn, saveRedirectUrl, renderNewForm);
 
 router.route("/:id")
     .get(wrapAsync(showRoute)) //show route
-    .put(isLoggedIn, isOwner, upload.single('listing[image]'), validateListing, wrapAsync(updateListing)) //update route
+    .put(isLoggedIn, saveRedirectUrl, isOwner, upload.single('listing[image]'), validateListing, wrapAsync(updateListing)) //update route
     .delete(isLoggedIn, isOwner, wrapAsync(destroyListing)); //destroy route
 
 //edit route
-router.get("/:id/edit", isLoggedIn, isOwner, wrapAsync(editListing));
+router.get("/:id/edit", isLoggedIn, isOwner, saveRedirectUrl, wrapAsync(editListing));
 
 
 
