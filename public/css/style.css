@@ -106,3 +106,9 @@ body {
   width: 40vh;
   height: 40vh;
 }
+
+/* map */
+#map {
+  height: 400px;
+  width: 40vw;
+}

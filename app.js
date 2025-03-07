@@ -95,6 +95,6 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(3000, () => {
-    console.log("listening");
+app.listen(process.env.PORT, () => {
+    console.log("listening to port ", process.env.PORT);
 }); 
